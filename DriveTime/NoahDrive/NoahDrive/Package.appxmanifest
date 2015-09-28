@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+
+  <Identity Name="ba9d5b13-d3c8-43b9-947b-08f6044ab685"
+            Publisher="CN=bryanweinstein"
+            Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="3147f9bd-1a12-4fa4-9874-d5080d3ec322" PhonePublisherId="4accad5a-3e66-4800-a845-4ab2843e1010"/>
+
+  <Properties>
+    <DisplayName>NoahDrive</DisplayName>
+    <PublisherDisplayName>bryanweinstein</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="x3147f9bdy1a12y4fa4y9874yd5080d3ec322x"
+        Executable="AGHost.exe"
+        EntryPoint="MainPage.xaml">
+      <m3:VisualElements
+          DisplayName="NoahDrive"
+          Square150x150Logo="Assets\SquareTile150x150.png"
+          Square44x44Logo="Assets\Logo.png"
+          Description="NoahDrive"
+          ForegroundText="light"
+          BackgroundColor="#464646">
+        <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png"/>
+        <m3:SplashScreen Image="Assets\Splashscreen.png" />
+      </m3:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="AgHost.BackgroundTask">
+          <BackgroundTasks>
+          <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AgHostSvcs.dll</Path>
+        <ActivatableClass ActivatableClassId="AgHost.BackgroundTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>

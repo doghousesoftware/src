@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_MVVM_Explained.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <DataGrid x:Name="dgDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding ThisViewModel}"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="IndexNumber" Binding="{Binding IndexNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="ObjectName" Binding="{Binding ObjectName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridCheckBoxColumn Header="IsVisible" Binding="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </DataGrid.Columns>
+            
+        </DataGrid>
+            <Button Content="Change Button" Margin="3" Width="150" Height="50" Command="{Binding ClickCommand}" />
+            <Button Content="Huge Alter" Margin="3" Width="150" Height="50" Command="{Binding TextCommand}" />
+
+        </StackPanel>
+    </Grid>
+</Window>

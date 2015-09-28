@@ -1,0 +1,16 @@
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\bin\Debug\WPF_MVVM_Explained.exe.config
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\bin\Debug\WPF_MVVM_Explained.exe
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\bin\Debug\WPF_MVVM_Explained.pdb
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.csprojResolveAssemblyReference.cache
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\MainWindow.baml
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\MainWindow.g.cs
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\App.g.cs
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained_MarkupCompile.cache
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.g.resources
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.Properties.Resources.resources
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.csproj.GenerateResource.Cache
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.exe
+e:\Users\bweins\Documents\Visual Studio 2012\Projects\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.pdb
+C:\Users\bweins\Desktop\WPF_MVVM_Explained\WPF_MVVM_Explained\WPF_MVVM_Explained\bin\Debug\WPF_MVVM_Explained.exe.config
+C:\Users\bweins\Desktop\WPF_MVVM_Explained\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.exe
+C:\Users\bweins\Desktop\WPF_MVVM_Explained\WPF_MVVM_Explained\WPF_MVVM_Explained\obj\Debug\WPF_MVVM_Explained.pdb
